@@ -1,9 +1,9 @@
 # Notes for me
 
-Add viber installer.
-Add gloCOM installer.
-Add GO lang installer.
-
+#### Add viber installer.
+#### Add gloCOM installer.
+#### Add GO lang installer.
+#### Add aliasses for bash and install fish.
 
 
 # Ultimate Linux Mint 19 Cinnamon
