@@ -1,3 +1,11 @@
+# Notes for me
+
+Add viber installer.
+Add gloCOM installer.
+Add GO lang installer.
+
+
+
 # Ultimate Linux Mint 19 Cinnamon
 
 After installing these scripts you will arrive at a different kind of Linux Mint.
@@ -33,21 +41,6 @@ Do not forget to type "./" in front of the name.
 
 
 These three scripts will point to some of the other scripts in the folder. So keep them together.
-
-
-The best of them
-
-	Spotify
-	Sublime Text
-	Variety
-	Inkscape
-	Plank
-	Screenfetch
-	Numix Icons
-	Google Chrome
-	...
-
-There are other scripts for applications I sometimes need but will not be installed as of yet.
 
 
 
