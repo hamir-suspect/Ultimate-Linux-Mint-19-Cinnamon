@@ -40,30 +40,14 @@ if ! location="$(type -p "git")" || [ -z "git" ]; then
 		sudo apt-get install -y git
 
 	fi
-
-	# check if pacman is installed
-	if which pacman > /dev/null; then
-
-		sudo pacman -S --noconfirm git
-
-	fi
-
-	# check if eopkg is installed
-	if which eopkg > /dev/null; then
-
-		sudo eopkg -y install git
-
-	fi
-
 fi
-
 #setting up git
 #https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
 git init
-git config --global user.name "Erik Dubois"
-git config --global user.email "erik.dubois@gmail.com"
-sudo git config --system core.editor nano
+git config --global user.name "hamir_suspect"
+git config --global user.email "amir.hasanbasic@fet.ba"
+sudo git config --system core.editor vi
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=100000'
 git config --global push.default simple

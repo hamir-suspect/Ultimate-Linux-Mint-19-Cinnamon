@@ -3,6 +3,7 @@ set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
+# Edited by :   Amir Hasanbasic
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
 ##################################################################################################################
@@ -12,23 +13,16 @@ set -e
 ##################################################################################################################
 
 #software from 'normal' repositories
-sudo apt-get install -y curl dconf-cli dconf-editor dropbox evolution geany geary gimp gpick
-sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
-sudo apt-get install -y openshot plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
-sudo apt-get install -y thunar vlc vnstat   
-
+sudo apt-get install -y curl dconf-cli dconf-editor evolution 
+sudo apt-get install -y gparted tlp
+sudo apt-get install -y plank ppa-purge synapse
+sudo tlp start
 
 #operating specific software
 
 # sudo apt-get install nemo-compare -y
 
 ###############################################################################################
-
-# installation of zippers and unzippers
-sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
-
-###############################################################################################
-
 
 #ending
 #mkdir $HOME/Upload

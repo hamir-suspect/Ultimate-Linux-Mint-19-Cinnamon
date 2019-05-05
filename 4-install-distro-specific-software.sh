@@ -13,8 +13,7 @@ set -e
 
 
 
-sudo apt install -y nemo-dropbox adobe-flashplugin
-
+echo "this is now empty"
 
 echo "################################################################"
 echo "#############      distro specific software    #################"
